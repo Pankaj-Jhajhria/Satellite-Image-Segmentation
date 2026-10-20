@@ -44,8 +44,7 @@ logs*/
 **/logs*/
 outputs*/
 **/outputs*/
-visualize_landcover*/
-**/visualize_landcover*/
+visualize_landcover_model3*/
 
 # Temporary files
 *.log
