@@ -1,0 +1,54 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datasets
+data/
+dataset/
+datasets/
+landcover.ai_data2/
+**/data/
+**/dataset/
+**/datasets/
+
+# Model checkpoints and weights
+checkpoints*/
+**/checkpoints*/
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.onnx
+*.h5
+*.safetensors
+
+# Training logs and generated results
+logs*/
+**/logs*/
+outputs*/
+**/outputs*/
+visualize_landcover*/
+**/visualize_landcover*/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+.gitignore.backup
